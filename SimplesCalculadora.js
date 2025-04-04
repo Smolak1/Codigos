@@ -19,7 +19,7 @@ function Calcular(n1, op, n2){
                     }
 
 function fatoracao(n1){
-console.log(`|Fatorando o número ${n1}|`);
+if (n1 != undefined){  console.log(`|Fatorando o número ${n1}|`);
 console.log(`----------------------`)
     let fatorado = 1n;
     let n2 = n1;
@@ -30,10 +30,10 @@ while(n1 > 1){
     
     fatorado *= BigInt(n1);
         console.log(`| Fatorando...${fatorado}|`);
-        n1--
-}
-console.log(`----------------------`)
+        n1--}
 
+ console.log(`----------------------`)
 }
-                    fatoracao(5);
+}
+                    fatoracao(10);
                     Calcular();
