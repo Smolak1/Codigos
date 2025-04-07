@@ -35,5 +35,20 @@ while(n1 > 1){
  console.log(`----------------------`)
 }
 }
-                    fatoracao(10);
+function elevar(n, qtd) {
+    let quant = qtd
+    let nu = n
+        let result = 0;
+while(quant != 0){
+
+ result = result + (n * n)
+quant--
+if (quant == 0){
+    console.log(`O resultado da expressão ${n} elevado a ${qtd} foi ${result}.`)
+}
+
+}    
+}
+                    fatoracao();
                     Calcular();
+                    elevar(2,4)
