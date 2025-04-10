@@ -36,19 +36,14 @@ while(n1 > 1){
 }
 }
 function elevar(n, qtd) {
-    let quant = qtd
-    let nu = n
         let result = 0;
-while(quant != 0){
-
- result = result + (n * n)
-quant--
-if (quant == 0){
+ result = Math.pow(n, qtd)
     console.log(`O resultado da expressão ${n} elevado a ${qtd} foi ${result}.`)
+}    
+
+function Extrair(n, qnt) {
+    let result = Math.pow(n, 1/qnt).toFixed(2)
+    console.log(result)
 }
 
-}    
-}
-                    fatoracao();
-                    Calcular();
-                    elevar(2,4)
+                    fatoracao(2)

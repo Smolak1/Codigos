@@ -17,4 +17,4 @@ if(palavraInvertida == palavraLimpa){
 }
 
 
-inverter("arara"),
+inverter("arara")
