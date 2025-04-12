@@ -5,4 +5,4 @@ function check(numero){
 }           else console.log("O número é IMPAR")
 }
 
-check(121267517545675) // garante precisão até 15 digitos.
+check("") // garante precisão até 15 digitos.
