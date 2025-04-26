@@ -18,7 +18,7 @@ function Calcular(n1, op, n2){
                         }
                     }
 
-function fatoracao(n1){
+function fatorar(n1){
 if (n1 != undefined){  console.log(`|Fatorando o número ${n1}|`);
 console.log(`----------------------`)
     let fatorado = 1n;
@@ -46,4 +46,4 @@ function Extrair(n, qnt) {
     console.log(result)
 }
 
-                    fatoracao(2)
+            Extrair(125, 3)
